@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: inherit;
+    background: rgba(230, 219, 219, 0.85);
+}
+
+nav {
+    background: rgba(168, 216, 218, 0.52);
+   -webkit-box-shadow: 12px 4px 16px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 12px 4px 16px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: 12px 4px 16px -3px rgba(0, 0, 0, 0.75);;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; /*vertical alignment*/
+    list-style: none; /*used to remove styles*/
+    height: 60px;
+}
+
+nav li{
+    padding: 0px 40px; /* padding creates the space in between*/
+}
+
+nav li:first-child{
+    margin-right: auto;
+}
+
+nav a{
+    text-decoration: none;
+    color: #194157;
+    font-weight: 600;
+    transition: color 400ms, font-size 400ms;
+}
+
+nav a:hover{
+    color: aliceblue;
+    font-size: 1.08em;
+}
+
+footer{
+    border-top: 1px solid #0d2222;
+}
+
+footer .top{
+    height: 100px;
+    background: rgba(168, 216, 218, 0.52);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .bottom{
+    padding: 16px 0px;
+    text-align: center;
+}
