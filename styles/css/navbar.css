@@ -52,13 +52,23 @@ footer{
     border-top: 1px solid #0d2222;
 }
 
-footer .top{
+footer .socials{
     height: 100px;
     background: rgba(168, 216, 218, 0.52);
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.socials a{
+    margin: 0 20px;
+}
+
+.socials img{
+    width: 40px;
+    height: 40px;
+}
+
 
 footer .bottom{
     padding: 16px 0px;
